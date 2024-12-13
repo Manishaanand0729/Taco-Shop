@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/Taco.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="The Official website for the Little Taco Shop">
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="http://127.0.0.1:5500/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Welcome to the Little Tacos Shop</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="http://127.0.0.1:5500/Taco.html#About">About<abbr title="the Little
+                    Taco Shop">LTS</abbr></a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/Taco.html#Menu">Our Menu</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/Hours.html">Store Hours</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/Contact.html">Contect Us </a>
+            </li>
+        </ul>
+    </nav>
+    <figure>
+        <img src="./The Little Taco Shop_files/pexels-photo-262978.jpeg" alt="Taco &amp; Foods" tittle=" We Love Tacos!" width="400" height="267">
+        <figcaption>
+            Tacos And Food
+        </figcaption>
+    </figure>
+    <main>
+        <article id="about">
+            <h2>about <abbr title="the little taco shop ">LTS</abbr></h2>
+            <p>
+                <abbr title="the little taco shop ">LTS</abbr>
+            was Founded in <time datetime="2024"></time>. our Shop Built from a <strong>love of Tacos</strong> 🌮🌮🌮.We hope our shop add a unique and  itersting palce to our little Town.
+            </p>
+            <aside>
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary>when did tacos first appear
+                        in the united stated?<sala summary="">
+                        <p>Jeffrey M.pilcher, Taco Historian And Professor of History at the University of Minnesota, Says the Earliest Mention of tacos in The United States Are in a newsPaper from <time datetime="1905"></time>
+                        </p>
+                </sala></summary></details>
+            </aside>
+    </article></main>
+    <hr>
+    <article id="menu">
+        <h2> Our menu</h2>
+        <table>
+            <caption>Our Tacos</caption>
+            <thead>
+                <tr>
+                    <th>Tacos</th>
+                    <th sccope=" Col"><abbr title="Quantity">Qty</abbr></th>
+                    <th scope="col" price=""></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="3">
+                        Crunchy
+                    </th>
+                    <td>1</td>
+                    <td>$1.50</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$2.50</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>$1.250</td>
+                </tr>
+                </tbody><tbody>
+                    </tbody><tfoot>
+                        <tr><td colspan="3">
+                            Cimps &amp; salsa $2
+                     
+                        </td>
+                    </tr></tfoot>
+                
+        </table>
+         <br>
+         <p>
+            <a href="http://127.0.0.1:5500/Taco.html#"> Back to</a>
+         </p>
+    </article>
+    <footer>
+        <p>Copyright © The Little TAco Shop</p>
+    </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
